@@ -31,6 +31,8 @@ jobs:
     - run: cd dist
     - run: echo > .nojekyll
     - run: git init
+    - run: git config --global user.email "leandro.ferrer2005@gmail.com"
+    - run: git config --global user.name "L-Ferrer"
     - run: git checkout -B main
     - run: git add -A
     - run: git commit -m "deploy"
