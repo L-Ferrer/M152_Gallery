@@ -36,4 +36,4 @@ jobs:
     - run: git checkout -B main
     - run: git add -A
     - run: git commit -m "deploy"
-    - run: git push -f https://github.com:L-Ferrer/M152_Gallery.git main:gh-pages
+    - run: git push -f https://github.com/L-Ferrer/M152_Gallery.git main:gh-pages
