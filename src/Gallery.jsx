@@ -1,15 +1,12 @@
 import { useState } from 'react'
 import Lightroom from 'react-lightbox-gallery'
 import './App.css'
-import cimg1 from './assets/class1.jpg'
-import cimg2 from './assets/class2.jpg'
-import cimg3 from './assets/class3.jpg'
+import quantum_dog from './assets/18f11103dd833e388c91a9c9ff64642079c8f894e1a6f6d7e2b608984d24a040_1.jpg'
 
 const images = [
   {
-    src: "https://images.unsplash.com/photo-1577279549270-b9e297533cdd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80",
-    desc: 'Person wearing shoes',
-    sub: 'Gift Habeshaw'
+    src: quantum_dog,
+    desc: "Quantum physics ain't lying",
   },
   {
     src: "https://images.unsplash.com/photo-1577277625082-36df4915ebeb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80",
