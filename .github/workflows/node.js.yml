@@ -33,5 +33,5 @@ jobs:
         echo "Deploying to Github pages..."
         git config --global user.email "leandro.ferrer2005@gmail.com"
         git config --global user.name "L-Ferrer"
-        git remote set-url origin https://${{secrets.GHACCESSTOKEN}}@github.com/${{github.repository}}
+        git remote set-url origin https://github.com/L-Ferrer/M152_Gallery.git
         npm run deploy
