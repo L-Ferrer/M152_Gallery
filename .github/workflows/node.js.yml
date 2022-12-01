@@ -39,5 +39,4 @@ jobs:
         git checkout -B main
         git add -A
         git commit -m "deploy"
-        git push -f https://github.com/L-Ferrer/M152_Gallery.git main:gh-pages
-
+        git push -f git@github.com:L-Ferrer/M152_Gallery.git main:gh-pages
