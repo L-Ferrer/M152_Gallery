@@ -28,6 +28,8 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run build --if-present
+    - name: Check git config
+    - run: git config --global --list
     - name: Deploy to Github pages
       run: |
         cd dist
