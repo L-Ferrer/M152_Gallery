@@ -1,3 +1,47 @@
 .App{
   width: 100%;
 }
+
+.navbar {
+  position: sticky;
+  top: 0;
+  text-align: center;
+  display: flex;
+  padding: 2rem;
+  background-color: rgb(39, 39, 39);
+  max-width: 100%;
+  flex-wrap: nowrap;
+  box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.467);
+  -webkit-box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.467);
+  color: white;
+}
+
+.nav_child {
+  margin: 0 1rem;
+  padding: 0 1rem;
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+  transition: all 0.3s;
+}
+.nav_child:hover {
+  color: rgb(157, 157, 157);
+  text-decoration: none;
+}
+
+.title{
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 2rem;
+}
+.subtitle{
+  text-align: center;
+}
+
+.video{
+  display: block;
+  margin: 0 auto;
+  border-style: none;
+  margin-bottom: 10vh;
+}
