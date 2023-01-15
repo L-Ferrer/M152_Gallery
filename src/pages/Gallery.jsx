@@ -1,5 +1,4 @@
 import Lightroom from 'react-lightbox-gallery'
-import './App.css'
 
 //Images
 import quantum_dog from '/18f11103dd833e388c91a9c9ff64642079c8f894e1a6f6d7e2b608984d24a040_1.jpg'
@@ -78,7 +77,7 @@ function Gallery() {
   return (
     <div className="App">
       <div onClick={() => handleClick()}>
-        <Lightroom images={images} settings={settings}/>
+        <Lightroom images={images} settings={settings} className="gallery"/>
       </div>
     </div>
   )

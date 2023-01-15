@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import Gallery from './Gallery.jsx'
-import Navbar from './Navbar.jsx'
-import Home from './Home.jsx'
-import Video from './Video.jsx'
+import Gallery from './pages/Gallery.jsx'
+import Layout from './Layout.jsx'
+import Home from './pages/Home.jsx'
+import Video from './pages/Video.jsx'
 import './App.css'
 import {
   BrowserRouter,
@@ -17,7 +17,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Navbar />}>
+          <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="gallery" element={<Gallery />} />
             <Route path="video" element={<Video />} />

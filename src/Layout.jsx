@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
 
-const renderForm = (
+const navbar = (
     <div className="navbar">
         <a href="/" className='nav_child'>Home</a>
         <a href="/gallery" className='nav_child'>Gallery</a>
@@ -8,13 +8,20 @@ const renderForm = (
     </div>
 );
 
-const Navbar = () => {
+const footer = (
+    <div className="footer">
+        <p>© 2023 Leandro Ferrer</p>
+    </div>
+);
+
+const Layout = () => {
     return (
         <>
-            {renderForm}
+            {navbar}
             <Outlet />
+            {footer}
         </>
     )
 };
 
-export default Navbar;
+export default Layout;
