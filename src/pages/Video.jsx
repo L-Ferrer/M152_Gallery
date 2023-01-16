@@ -1,7 +1,7 @@
 function Video() {
     //https://trapgaming.spdns.org/src/priv/Backrooms.mp4
     return (
-        <div>
+        <div className="App">
             <h1 className="title">Backrooms Project</h1>
             <p className="subtitle">by Diego & Ferrer</p>
             <div className="video_box">
