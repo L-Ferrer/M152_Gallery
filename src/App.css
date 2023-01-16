@@ -4,6 +4,12 @@
 
 .home{
   height: 83vh;
+  text-align: center;
+}
+
+.gif{
+  width: auto;
+  height: 80vh;
 }
 
 .navbar {
