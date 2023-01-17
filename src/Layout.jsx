@@ -10,7 +10,7 @@ const navbar = (
 
 const footer = (
     <div className="footer">
-        <p>© 2023 Leandro Ferrer</p>
+        <p>© Leandro Ferrer 2023</p>
     </div>
 );
 

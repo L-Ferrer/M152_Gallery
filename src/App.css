@@ -1,21 +1,22 @@
-.App{
-  height: 100%;
+.App {
+  margin-top: -33px;
   width: auto;
   background-color: #242424;
 }
 
-.home{
+.home {
   height: 83vh;
   text-align: center;
 }
-.home_bg{
+
+.home_bg {
   height: 100vh;
   width: 100%;
   margin: auto;
   background-color: black
 }
 
-.gif{
+.gif {
   width: auto;
   height: 65vh;
 }
@@ -32,6 +33,7 @@
   box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.467);
   -webkit-box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.467);
   color: white;
+  z-index: 2;
 }
 
 .nav_child {
@@ -43,42 +45,75 @@
   font-weight: 500;
   transition: all 0.3s;
 }
+
 .nav_child:hover {
   color: rgb(157, 157, 157);
   text-decoration: none;
 }
 
-.title{
+.title {
   text-align: center;
   font-size: 3rem;
   padding-top: 2rem;
 }
-.subtitle{
+
+.subtitle {
   text-align: center;
 }
 
-.video_box{
+.content {
+  padding: 2rem;
+  -webkit-box-shadow: inset 0px 0px 29px 1px rgba(0, 0, 0, 0.65);
+  box-shadow: inset 0px 0px 29px 1px rgba(0, 0, 0, 0.65);
+  width: 80vw;
+  margin-left: 7vw;
+  background-color: #222222;
+  max-height: fit-content;
+}
+
+.text_box {
+  z-index: 0;
+  position: absolute;
+  margin-left: 15%;
+  margin-top: 10px;
+  background-color: rgb(51, 51, 51);
+  width: fit-content;
+  max-width: 20vw;
+  max-height: 65vh;
+  padding: 1rem;
+  -webkit-box-shadow: 0px 0px 25px 5px #000000;
+  box-shadow: 0px 0px 25px 5px #000000;
+  text-align: justify;
+}
+
+.video_box {
   padding: 10px;
   text-align: center;
+  display: block;
+  margin-left: 30%;
 }
 
-.video{
-  text-align: center;
+.video {
   max-width: 960px;
-  max-height: 75vh;
-
+  max-height: 70vh;
+  -webkit-box-shadow: 0px 0px 25px 5px #000000;
+  box-shadow: 0px 0px 25px 5px #000000;
   min-height: 25%;
   width: auto;
 }
 
-.footer{
+.footer {
+  z-index: 2;
   text-align: center;
   bottom: 0;
   position: relative;
   padding: 0.5rem;
-  margin-top: 20px;
   background-color: rgb(39, 39, 39);
   box-shadow: 0px -10px 5px rgba(0, 0, 0, 0.467);
   -webkit-box-shadow: 0px -10px 5px rgba(0, 0, 0, 0.467);
   max-width: 100%;
+}
+
+.styles_lightroom__1X2qE {
+  width: 100% !important;
 }
