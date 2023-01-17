@@ -69,6 +69,7 @@
   margin-left: 7vw;
   background-color: #222222;
   max-height: fit-content;
+  min-height: 73vh;
 }
 
 .text_box {
@@ -116,4 +117,8 @@
 
 .styles_lightroom__1X2qE {
   width: 100% !important;
+}
+
+.gallery{
+  margin-top:33px
 }

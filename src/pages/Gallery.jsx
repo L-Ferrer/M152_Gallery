@@ -76,8 +76,8 @@ function handleClick(){
 function Gallery() {
   return (
     <div className="App">
-      <div onClick={() => handleClick()}>
-        <Lightroom images={images} settings={settings} className="gallery"/>
+      <div onClick={() => handleClick()} className="gallery">
+        <Lightroom images={images} settings={settings}/>
       </div>
     </div>
   )
