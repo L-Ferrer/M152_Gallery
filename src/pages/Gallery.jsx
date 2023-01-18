@@ -9,10 +9,12 @@ import frnch from '/Screenshot_20220131-192426_Reddit.jpg'
 import brazil_nr1 from '/Screenshot_20220523-235533_Reddit.jpg'
 import patrick from '/tckxwcaupyk81.jpg'
 import butterdawg from '/vjbq0agkk8q81.jpg'
-
-//GIFs
-import burger from '/burger-bussin.gif'
-import hacked_phone from '/phone_hacked.gif'
+import nice_fella from '/IMG_20220302_234810-1.jpg'
+import how from '/J5bXqaYBno4.jpg'
+import bozo from '/80670464-1960-49B2-A105-670B0F2F38BD.jpg'
+import argument from '/B4FBE83B-18C9-4792-BE72-D67ED14561B9.jpg'
+import real from '/20211209_164314.jpg'
+import saddam_hussein from '/saddam_hussein.jpg'
 
 const images = [
   {
@@ -47,37 +49,51 @@ const images = [
     src: patrick,
     desc: 'he a real one',
   },
-]
-const gifs = [
   {
-    src: burger,
-    desc: "'Bussin' Barbecue Bacon Burger from Beckers'",
+    src: nice_fella,
+    desc: 'What a nice fella',
   },
   {
-    src: hacked_phone,
-    desc: '🤨🤨🤨',
+    src: how,
+    desc: '😔',
+  },
+  {
+    src: bozo,
+    desc: 'Fuck em haters',
+  },
+  {
+    src: argument,
+    desc: 'Average tuesday',
+  },
+  {
+    src: real,
+    desc: 'real',
+  },
+  {
+    src: saddam_hussein,
+    desc: 'Saddam Hussein'
   }
 ]
 
 const settings = {
-  columnCount:{
-    default:3,
-    mobile:2,
-    tab:3
+  columnCount: {
+    default: 3,
+    mobile: 2,
+    tab: 3
   },
   mode: 'dark'
 }
 
-function handleClick(){
+function handleClick() {
   //window.scrollTo(0,0);
-  window.scroll({top: 0, behavior: 'smooth' })
+  window.scroll({ top: 0, behavior: 'smooth' })
 }
 
 function Gallery() {
   return (
     <div className="App">
       <div onClick={() => handleClick()} className="gallery">
-        <Lightroom images={images} settings={settings}/>
+        <Lightroom images={images} settings={settings} />
       </div>
     </div>
   )
